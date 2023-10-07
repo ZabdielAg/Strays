@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" href="logo/SATRYS.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="logo/SATRYS.ico" type="image/x-icon">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+	<title>SATRYS</title>
+</head>
+<body>
+	<header>
+		<div class="contenedor">
+		 <img class="logotipo1" src="logo/SATRYS.png" alt="" srcset="">
+			<nav>
+				<a href="#" class="activo">Inicio</a>
+				<a href="#">Cartoons</a>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<div class="pelicula-principal">
+			<div class="contenedor">
+				<h3 class="titulo">las maravillosas desventuras de flapjack</h3>
+				<p class="descripcion">
+					"Las Maravillosas Desventuras de Flapjack" es una serie de animación que se destaca por su estilo visual único y su narrativa humorística, a menudo inquietante, que sigue las locas aventuras de un niño y su amigo marinero mientras buscan un tesoro en forma de dulces.
+				</p>
+				<button role="button" class="boton"><i class="fas fa-play"></i>Reproducir</button>
+				<button role="button" class="boton"><i class="fas fa-info-circle"></i>Más información</button>
+			</div>
+		</div>
+
+		<div class="peliculas-recomendadas contenedor">
+			<div class="contenedor-titulo-controles">
+				<h3>¿Qué ver hoy?</h3>
+				<div class="indicadores"></div>
+			</div>
+
+			<div class="contenedor-principal">
+				<button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+
+				<div class="contenedor-carousel">
+					<div class="carousel">
+						<div class="pelicula">
+							<a href="#"><img src="img/1.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/2.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/3.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/4.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/5.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/6.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/7.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/1.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+
+				<button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+			</div>
+		</div>
+	</main>
+	
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
